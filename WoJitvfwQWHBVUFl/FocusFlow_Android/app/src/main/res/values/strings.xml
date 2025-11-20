@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusFlow</string>
+    <string name="app_description">Gerenciador de Foco e Tempo de Tela</string>
+    
+    <!-- Permissões -->
+    <string name="accessibility_service_description">FocusFlow usa o Serviço de Acessibilidade para detectar quando você tenta abrir um app bloqueado durante o período de foco</string>
+    <string name="permission_accessibility_title">Permissão de Acessibilidade</string>
+    <string name="permission_accessibility_description">Necessária para bloquear aplicativos durante o foco</string>
+    <string name="permission_overlay_title">Permissão de Sobreposição de Tela</string>
+    <string name="permission_overlay_description">Necessária para exibir a tela de bloqueio</string>
+    <string name="permission_usage_stats_title">Permissão de Acesso de Uso</string>
+    <string name="permission_usage_stats_description">Necessária para monitorar o uso de aplicativos</string>
+    
+    <!-- Telas Principais -->
+    <string name="home_title">FocusFlow</string>
+    <string name="home_subtitle">Gerenciador de Foco e Tempo de Tela</string>
+    <string name="focus_sessions">Sessões de Foco</string>
+    <string name="blocked_apps">Apps Bloqueados</string>
+    <string name="settings">Configurações</string>
+    <string name="add_focus_session">Adicionar Sessão de Foco</string>
+    <string name="edit_focus_session">Editar Sessão de Foco</string>
+    <string name="delete">Deletar</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    
+    <!-- Agendamento -->
+    <string name="select_day">Selecionar Dia</string>
+    <string name="select_apps">Selecionar Apps</string>
+    <string name="start_time">Hora de Início</string>
+    <string name="end_time">Hora de Término</string>
+    <string name="add_time_period">Adicionar Período de Tempo</string>
+    <string name="monday">Segunda-feira</string>
+    <string name="tuesday">Terça-feira</string>
+    <string name="wednesday">Quarta-feira</string>
+    <string name="thursday">Quinta-feira</string>
+    <string name="friday">Sexta-feira</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
+    
+    <!-- Bloqueio -->
+    <string name="focus_active">Foco Ativo</string>
+    <string name="focus_active_message">Este app está bloqueado durante seu período de foco</string>
+    <string name="skip">Pular</string>
+    <string name="defer">Adiar 5 minutos</string>
+    <string name="focus_ends_at">Foco termina em:</string>
+    
+    <!-- Notificações -->
+    <string name="focus_notification_title">FocusFlow está ativo</string>
+    <string name="focus_notification_message">Seu período de foco está em andamento</string>
+    
+    <!-- Tutorial -->
+    <string name="tutorial_title">Configurar Permissões</string>
+    <string name="tutorial_step_1">Passo 1: Permissão de Acessibilidade</string>
+    <string name="tutorial_step_1_desc">Vá para Configurações > Acessibilidade > Serviços e ative FocusFlow</string>
+    <string name="tutorial_step_2">Passo 2: Permissão de Sobreposição</string>
+    <string name="tutorial_step_2_desc">Vá para Configurações > Apps > Permissões > Sobrepor outros apps e ative FocusFlow</string>
+    <string name="tutorial_step_3">Passo 3: Permissão de Uso</string>
+    <string name="tutorial_step_3_desc">Vá para Configurações > Apps > Permissões > Acesso de uso e ative FocusFlow</string>
+    <string name="go_to_settings">Ir para Configurações</string>
+    <string name="tutorial_complete">Permissões Configuradas!</string>
+    
+    <!-- Mensagens -->
+    <string name="no_focus_sessions">Nenhuma sessão de foco configurada</string>
+    <string name="no_blocked_apps">Nenhum app bloqueado</string>
+    <string name="session_saved">Sessão de foco salva</string>
+    <string name="session_deleted">Sessão de foco deletada</string>
+    <string name="error">Erro</string>
+    <string name="success">Sucesso</string>
+</resources>
